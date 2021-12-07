@@ -8,6 +8,7 @@
   // update DOM to reflect the new state
 
 //SIMPLE ARRAY OF STRINGS - GUITARS
+
 import { guitars } from './array-guitars.js';
 import { renderGuitars } from './render-guitars.js';
 
@@ -41,4 +42,16 @@ const list3Div = document.querySelector('#list3');
 for(let eachAmpAndSpeaker of ampsAndSpeakers) {
     const eachAmpDiv = renderAmpsAndSpeakers(eachAmpAndSpeaker);
     list3Div.append(eachAmpDiv);
+}
+
+//ARRAY OF OBJECTS WITH ONE NESTED ARRAY - AMPS & PLAYERS
+
+import { ampsAndPlayers } from './array-amps-players.js';
+import { renderAmpsAndPlayers } from './render-amps-players.js';
+
+const list4Div = document.querySelector('#list4');
+
+for (let eachAmp of ampsAndPlayers) {
+    const eachAmpDiv = renderAmpsAndPlayers(eachAmp);
+    list4Div.append(eachAmpDiv);
 }
