@@ -39,7 +39,7 @@ import { renderAmpsAndSpeakers } from './render-amps-speakers.js';
 
 const list3Div = document.querySelector('#list3');
 
-for(let eachAmpAndSpeaker of ampsAndSpeakers) {
+for (let eachAmpAndSpeaker of ampsAndSpeakers) {
     const eachAmpDiv = renderAmpsAndSpeakers(eachAmpAndSpeaker);
     list3Div.append(eachAmpDiv);
 }
