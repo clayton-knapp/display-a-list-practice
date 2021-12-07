@@ -111,3 +111,66 @@ footer {
     }
 
   }
+
+#list1 {
+    border: 1px black solid;
+    padding: 5px;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.guitars {
+    padding: 3px;
+    margin: 5px;
+    border: 1px solid blue;
+    border-radius: 5px;
+}
+
+.amps {
+    max-height:200px;
+    padding:5px;
+}
+
+#list2 {
+    border: 1px black solid;
+    padding: 5px;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.each-amp-container {
+    /* max-height:200px; */
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 10px
+}
+
+.speakers {
+    max-width: 100px;
+    margin: 5px;
+}
+
+.speaker-container {
+    border: 1px solid black;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px
+}
+
+#list3 {
+    border: 1px black solid;
+    padding: 5px;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
